@@ -6,7 +6,7 @@ Web scraping is a technique used to extract large amounts of data from websites.
 2. Parse the HTML content. Since most of the HTML data is nested, you cannot extract data simply through string processing. One needs a parser which can create a nested/tree structure of the HTML data. There are many HTML parser libraries available, but the most advanced one is HTML5lib.
 3. Search and navigate through the parse tree. Now, you have a parse tree of HTML tags that can be searched for the data you want to extract.
 
-This Python script is designed to scrape football data from the website [https://football-data.co.uk/]((https://football-data.co.uk/). It navigates through the website, identifies CSV files containing the data, and organizes the links to these files in a structured way.
+This Python script is designed to scrape football data from the website [https://football-data.co.uk/](https://football-data.co.uk/). It navigates through the website, identifies CSV files containing the data, and organizes the links to these files in a structured way.
 
 Here's a breakdown of the main functions:
 
